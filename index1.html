@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index1</title>
+</head>
+<body>
+    <h1></h1>
+    <a href="aula.3.html"><h1>Aula 3</h1></a>
+
+    <input type="text" id="campo_nome" placeholder="Nome Completo">
+
+    <button onclick="mostraNome()">Enviar</button>
+</body>
+<script>
+    function mostraNome() {
+        var nome = document.querySelector('#campo_nome').value;
+
+        alert(`Olá ${nome}`);
+    }
+
+    mostraNome();
+</script>
+</html>
